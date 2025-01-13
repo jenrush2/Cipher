@@ -7,7 +7,7 @@ print ()
 #start a loop that goes through each character in a string, 
 #does the shift one at a time and adds it to the answer string
 
-phrase_to_encrypt = raw_input("Enter a phrase to encrypt: ")
+phrase_to_encrypt = input("Enter a phrase to encrypt: ")
 shift = input("Enter a positive number for the shift: ")
 answer = ""
 

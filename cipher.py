@@ -1,7 +1,7 @@
 
-print "This program applies a shift cypher on any phrase!"
+print ("This program applies a shift cypher on any phrase!")
 
-print
+print ()
 
 
 #start a loop that goes through each character in a string, 
@@ -51,10 +51,10 @@ for x in phrase_to_encrypt:
             answer = answer + chr(new_location)
 
 #blank space because I hate it when things are crammed
-print
+print ()
 
 #print the answer!
-print "Your encoded phrase is: " + answer
+print ("Your encoded phrase is: " + answer)
      
 
 

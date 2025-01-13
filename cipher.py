@@ -8,7 +8,7 @@ print ()
 #does the shift one at a time and adds it to the answer string
 
 phrase_to_encrypt = input("Enter a phrase to encrypt: ")
-shift = input("Enter a positive number for the shift: ")
+shift = int(input("Enter a positive number for the shift: "))
 answer = ""
 
 
